@@ -1,0 +1,28 @@
+page-welcome {
+    #wel_con{
+        background: #000000;
+        padding:0px;
+    }
+    img{
+        width:100%;
+        height:auto;
+      }
+      
+    ion-slide{
+        position:relative;
+      width:100%;
+      height:auto;
+    margin:none;
+
+      }
+      .myOverlay{
+        position: absolute;
+        bottom: 10px;
+        height: 80px;
+        width: 100%;
+        background-color: rgba(0,0,0,0.8);
+        color: #fff;
+        padding: 0px;
+      
+      }
+}
