@@ -1,3 +1,42 @@
 page-login {
+    #login_bg{
+        background: linear-gradient(269deg, #32df94, #e040fb);
+        background-size: 400% 400%;
 
+        -webkit-animation: AnimationName 6s ease infinite;
+        -moz-animation: AnimationName 6s ease infinite;
+        animation: AnimationName 6s ease infinite;
+
+        @-webkit-keyframes AnimationName {
+            0%{background-position:0% 51%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 51%}
+        }
+        @-moz-keyframes AnimationName {
+            0%{background-position:0% 51%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 51%}
+        }
+        @keyframes AnimationName { 
+            0%{background-position:0% 51%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 51%}
+        }
+    }
+    ion-item{
+        background: transparent!important;
+    }
+    ion-input,ion-label{
+        color:#fff!important;
+    }
+    .btn{
+        margin-top: 10%;
+    }
+    .item-md,.item-ios{
+        padding-left: 0px !important;
+    }
+    h1{
+        font-family: 'Pacifico', cursive;
+        font-size: 35px!important;
+    }
 }
