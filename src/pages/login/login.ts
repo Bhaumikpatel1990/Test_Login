@@ -23,7 +23,6 @@ export class LoginPage {
   public userdetails: any;
   userData = {"EmailAddress":"","Password":""};
   constructor(public navCtrl: NavController, public navParams: NavParams,private Userlogin:UserloginProvider,private alertCtrl: AlertController,private storage:Storage) {
-    
   }
 
   ionViewDidLoad() {
